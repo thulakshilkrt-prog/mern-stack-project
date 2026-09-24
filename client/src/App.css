@@ -1,0 +1,18 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-color: aliceblue;
+}
+
+h1 {
+  text-align: center;
+  margin-top: 30px;
+}
+
+h2 {
+  text-align: center;
+}
+.userTable th {
+  background-color: darkcyan;
+  color: white;
+}

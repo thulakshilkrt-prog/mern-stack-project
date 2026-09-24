@@ -1,0 +1,74 @@
+.addUser {
+  width: 500px;
+  margin: 50px auto;
+  padding: 30px;
+  background: white;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.15);
+}
+
+.addUser h2 {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.inputGroup {
+  margin-bottom: 20px;
+}
+
+.inputGroup label {
+  display: block;
+  margin-bottom: 8px;
+  font-weight: bold;
+}
+
+/* ALL INPUT BOXES */
+.addUser .form-control,
+.addUser .form-select {
+  background-color: #eaf4ff !important;
+  border: 2px solid #0d6efd !important;
+  border-radius: 5px;
+  padding: 10px;
+  font-size: 16px;
+}
+
+/* CLICKED BOX */
+.addUser .form-control:focus,
+.addUser .form-select:focus {
+  background-color: #ffffff !important;
+  border-color: #0d6efd !important;
+  box-shadow: 0 0 5px rgba(13, 110, 253, 0.3) !important;
+}
+
+/* ADD BUTTON */
+.submitBtn {
+  width: 100%;
+  padding: 12px;
+  border: none;
+  border-radius: 5px;
+  background: #0d6efd;
+  color: white;
+  font-size: 16px;
+  cursor: pointer;
+  margin-bottom: 10px;
+}
+
+.submitBtn:hover {
+  background: #0b5ed7;
+}
+
+/* BACK BUTTON */
+.backBtn {
+  width: 100%;
+  padding: 12px;
+  border: none;
+  border-radius: 5px;
+  background: #6c757d;
+  color: white;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.backBtn:hover {
+  background: #5c636a;
+}
