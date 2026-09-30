@@ -10,13 +10,13 @@ function App() {
     <BrowserRouter>
       <Routes>
 
-        {/* User List - Home page */}
+        {/* User List - Home List */}
         <Route path="/" element={<User />} />
 
-        {/* Add User - Home page*/}
+        {/* Add User - Home List*/}
         <Route path="/adduser" element={<Adduser />} />
 
-        {/* Update User - Home page*/}
+        {/* Update User - Home List*/}
         <Route path="/update/:id" element={<Update />} />
 
       </Routes>
