@@ -24,8 +24,8 @@ const Update = () => {
         );
 
         setUser({
-          name: response.data.name || "",
-          email: response.data.email || "",
+          name: response .data .name || "",
+          email: response .data.email || "",
           adress: response.data.adress || "",
           countryCode: response.data.countryCode || "+94",
           phone: response.data.phone || "",
