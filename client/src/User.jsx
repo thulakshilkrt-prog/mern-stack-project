@@ -96,7 +96,7 @@ const User = () => {
 
           <h4>No Data to display</h4>
 
-          <p>Please add New User</p>
+          <p>Please add New User list</p>
 
           <button
             className="btn btn-primary"
