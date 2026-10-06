@@ -10,10 +10,10 @@ function App() {
     <BrowserRouter>
       <Routes>
 
-        {/* User page page - Home page */}
+        {/* User list page - Home page */}
         <Route path="/user" element={<User />} />
 
-        {/* Add page User - Home page*/}
+        {/* Add user page - Home page */}
         <Route path="/adduser" element={<Adduser />} />
 
         {/* Update page User - Home page*/}
