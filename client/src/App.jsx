@@ -1,3 +1,4 @@
+
 import React from "react";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 
@@ -10,13 +11,16 @@ function App() {
     <BrowserRouter>
       <Routes>
 
-        {/* User list page - Home page */}
+        {/* Home page */}
+        <Route path="/" element={<User />} />
+
+        {/* User list page */}
         <Route path="/user" element={<User />} />
 
-        {/* Add user page - Home page */}
+        {/* Add user page */}
         <Route path="/adduser" element={<Adduser />} />
 
-        {/* Update page User - Home page*/}
+        {/* Update user page */}
         <Route path="/update/:id" element={<Update />} />
 
       </Routes>
@@ -25,3 +29,4 @@ function App() {
 }
 
 export default App;
+
