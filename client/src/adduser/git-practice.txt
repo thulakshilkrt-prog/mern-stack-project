@@ -1,0 +1,3 @@
+I am learning Git.
+This is my first practice.
+ Copy text
