@@ -1,4 +1,5 @@
 I am learning Git.
 This is my first practice.
- Copy text
+ Copy text file
  Learning Git restore command.
+I learned to edit files on GitHub.
